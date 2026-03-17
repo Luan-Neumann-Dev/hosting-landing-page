@@ -1,52 +1,86 @@
-<h1 align='center'>
-📟 HDC Host
-</h1>
+# Hosting Landing Page
+ 
+> A responsive landing page for a web hosting company — featuring pricing plans, domain search, and contact sections.
+ 
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-![foto_completa_hdchost](https://github.com/user-attachments/assets/2c9924a7-2630-45eb-a52e-c12417d0d7d8)
-
-<h4 align='center'>
-<a href='https://hdc-host-six.vercel.app/'>Click here to view the project</a>
-</h4>
-
->HDC Host is a SPA built with Html and Css, showcasing a domain hosting company. It features a company presentation, hosting plans, domain search, contact section, and a responsive navbar and footer. A great exercise in structure and responsiveness!
-
-## 💼 Technologies Used
-- HTML
-- CSS
-
-## 🏃 How to Run the Project
-
-To run the project locally, follow these instructions:
-
-1. **Clone** this repository on Visual Studio Code
-
+![Project Preview](https://github.com/user-attachments/assets/2c9924a7-2630-45eb-a52e-c12417d0d7d8)
+## 🎯 About
+ 
+HDC Host is a front-end landing page for a fictional web hosting provider. It showcases a structured layout with service highlights, tiered pricing plans, a domain availability search form, and a contact section — all built with semantic HTML and custom CSS.
+ 
+## ✨ Features
+ 
+- 🧭 **Fixed Navigation Bar** - Logo, menu links, and a CTA login button with hover transitions
+- 🚀 **Services Section** - Cards highlighting Security, Performance, and 24/7 Support with Font Awesome icons
+- 💳 **Pricing Plans** - Four-tier plan layout (Basic, Dedicated, Dedicated Plus, Cloud) with a highlighted recommended option
+- 🔍 **Domain Search** - Input form for checking domain availability
+- 📬 **Contact Form** - Name, email, and message fields with a submission CTA
+ 
+## 🛠️ Built With
+ 
+- **HTML5** - Semantic structure with sections, nav, forms, and footer
+- **CSS3** - Flexbox layout, custom color palette, hover transitions, and background image hero banner
+- **Font Awesome 6** - Iconography for the services section
+- **Google Fonts (Poppins)** - Clean and modern typography throughout
+ 
+## 🚀 Getting Started
+ 
+### Prerequisites
+ 
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+ 
+### Installation
+ 
+```bash
+# Clone the repository
+git clone https://github.com/Luan-Neumann-Dev/hosting-landing-page.git
+ 
+# Navigate to project directory
+cd hosting-landing-page
+ 
+# Open in browser
+open index.html
 ```
-git clone <https://github.com/Luan-Neumann-Dev/HDC-Host.git>
-
+ 
+## 📁 Project Structure
+ 
 ```
-
-2. **Open** the index.html file to see the project in action! 🌟
-
-## Contributions 🤝
-
-Contributions are welcome! If you have suggestions for improvements or find any issues, please feel free to open an issue or submit a pull request.
-
-<h2> 🙋 Author  </h2>
-<table>
-<tr>
-<td align="center">
-<a href="https://github.com/Luan-Neumann-Dev">
-<img src="https://avatars.githubusercontent.com/u/155394874?s=400&u=9694d36eda852061b89679e4da99e37e8c22c7ab&v=4" width="100px;" alt="Foto do Luan no GitHub"/><br>
-<sub>
-<b>Luan Neumann Dev</b>
-</sub>
-</a>
-</td>
-</tr>
-</table>
-
+hosting-landing-page/
+├── index.html          # Main HTML file
+├── css/
+│   └── style.css       # All styles — layout, colors, typography, responsiveness
+└── img/
+    ├── hdchostlogo.png  # Brand logo used in navbar and favicon
+    └── mainbanner.png   # Hero section background image
+```
+ 
+## 🎓 What I Learned
+ 
+- How to structure a multi-section landing page using semantic HTML5
+- Building responsive navigation bars with Flexbox
+- Applying CSS transitions for smooth hover interactions
+- Organizing a pricing card layout with a visually distinct recommended tier
+- Using external icon libraries (Font Awesome) and web fonts (Google Fonts) via CDN
+ 
+## 📝 Notes
+ 
+- This is a **frontend-only** project — forms are static and not connected to a backend
+- Built as a UI/layout practice project based on a fictional hosting brand
+- No affiliation with any real hosting company
+ 
+## 📄 License
+ 
+This project is open source and available under the MIT License.
+ 
+## 👤 Author
+ 
+**Luan Neumann**
+ 
+- LinkedIn: [Luan-Neumann-Dev](https://www.linkedin.com/in/luan-henrique-neumann-dev/)
+- GitHub: [@luan-neumann-dev](https://github.com/Luan-Neumann-Dev)
+ 
 ---
-<a href="www.linkedin.com/in/luan-henrique-neumann-dev" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href="https://github.com/Luan-Neumann-Dev" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-<a href="https://instagram.com/luanneumann" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-<a href = "mailto:luan.neumann.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+ 
+⭐ If you found this project helpful, consider giving it a star!
